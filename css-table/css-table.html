@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Tables </title>
+<style>
+table {
+  width: 500px;
+  height:50px;
+  border-style: dotted;
+  border-collapse: collapse;
+  border-color: rgb(255, 0, 247);
+  border-width: 10px;
+}   
+td {
+    width: 200px;
+
+  text-align: left;
+  vertical-align: center;
+  border-style: double;
+  border-color: red;
+  border-width: 5px;
+  padding: 5px;
+
+}
+
+th{
+    border-style: ridge;
+    border-color: rgb(0, 255, 60);
+    border-width: 6px;
+    background-color:powderblue
+}
+                                            
+tbody{
+    border-style: ridge;
+    background-color:rgb(193, 193, 193)
+}
+tfoot{
+    background-color:rgb(211, 102, 102)
+}
+caption{
+    background-color:rgb(254, 225, 8)
+}
+</style>
+</head>
+<body>                                                                                  
+    <caption>Work Schedule</caption>
+    <table>
+      <thead>
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Monday</td>
+          <td>Off</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>Off</td>
+          <td>0</td>
+        </tr>
+       
+      <tfoot>
+        <tr>
+          <td>Sum</td>
+          <td></td>
+          <td>0</td>
+        </tr>
+      </tfoot>
+    </table> 
+</body>
+</html>
