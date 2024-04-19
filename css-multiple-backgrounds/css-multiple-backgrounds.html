@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Multiple Backgrounds.</title>
+<style>
+
+.hero-image {
+  background: url(byi.webp) no-repeat center; 
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+#div1{
+Height: 700px;
+width:700px;
+  background-image: url(Christmas-Hat-Png-84.png),url(Monalisa.jpeg), url(download\ \(9\).jpeg);
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position-x:565px, right, left ;
+  background-position-y:410px, bottom, top ;
+  background-size: 110px 110px, auto, auto ;
+}
+#div2{
+Height: 700px;
+width:700px;
+  background:  url(Christmas-Hat-Png-84.png) no-repeat 565px 410px, url(Monalisa.jpeg) no-repeat right bottom,url(download\ \(9\).jpeg) repeat, left, top;
+  background-size: 110px 110px , auto, auto;
+}
+body{
+  background: url(hi.jpeg) no-repeat center fixed;
+  background-size: cover;
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 >Kirsten Schopper</h1>
+  </div>
+</div>
+<div id="div1">
+</div>
+<div id="div2"> </div>
+</body>
+</html>
